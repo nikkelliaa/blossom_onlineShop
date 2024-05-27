@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const InStock = () => {
     return (
         <div>
-            Header
+            InStock
         </div>
     );
 };
 
-export default Header;
+export default InStock;
