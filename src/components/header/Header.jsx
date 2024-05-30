@@ -1,6 +1,8 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom'
 
+
+
 const Header = () => {
     return (
         <>
@@ -10,22 +12,19 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/aboutUs">AboutUs</Link>
+                        <Link to="/aboutUs">О нас</Link>
                     </li>
                     <li>
-                        <Link to="/payment">Payment</Link>
+                        <Link to="/payment">Оплата</Link>
                     </li>
                     <li>
-                        <Link to="/Banal">Banal</Link>
+                        <Link to="/contact">Связаться с нами</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/inStock">В наличии</Link>
                     </li>
                     <li>
-                        <Link to="/inStock">InStock</Link>
-                    </li>
-                    <li>
-                        <Link to="/product">Product</Link>
+                        <Link to="/product">Товары</Link>
                     </li>
                 </ul>
             </nav>
