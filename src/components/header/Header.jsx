@@ -1,30 +1,31 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom'
+import s from './Header.module.css'
 
 
 
 const Header = () => {
     return (
         <>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
+            <nav className={s.navBar}>
+                <ul className={s.navList}>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/aboutUs">О нас</Link>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/aboutUs">О нас</Link>
                     </li>
-                    <li>
-                        <Link to="/payment">Оплата</Link>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/payment">Оплата</Link>
                     </li>
-                    <li>
-                        <Link to="/contact">Связаться с нами</Link>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/contact">Связаться с нами</Link>
                     </li>
-                    <li>
-                        <Link to="/inStock">В наличии</Link>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/inStock">В наличии</Link>
                     </li>
-                    <li>
-                        <Link to="/product">Товары</Link>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/product">Товары</Link>
                     </li>
                 </ul>
             </nav>

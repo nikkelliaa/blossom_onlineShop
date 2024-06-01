@@ -1,0 +1,36 @@
+/* Общие стили для навигации */
+.navBar {
+    background-color: #4f7942;
+    padding: 10px 20px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin: 0;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.navLink:hover {
+    background-color: #2c5c23;
+    border-radius: 5px;
+}
+
+/* Стили для активной ссылки */
+.navLink.active {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
