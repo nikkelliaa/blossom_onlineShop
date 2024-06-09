@@ -27,6 +27,12 @@ const Header = () => {
                     <li className={s.navItem}>
                         <Link className={s.navLink} to="/product">Товары</Link>
                     </li>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/productList">Продукты</Link>
+                    </li>
+                    <li className={s.navItem}>
+                        <Link className={s.navLink} to="/Cart">Корзина </Link>
+                    </li>
                 </ul>
             </nav>
 
