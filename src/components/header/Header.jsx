@@ -1,6 +1,7 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom'
 import s from './Header.module.css'
+import Blossom from "../../assets/Blossom.png"
 
 
 
@@ -9,6 +10,9 @@ const Header = () => {
         <>
             <nav className={s.navBar}>
                 <ul className={s.navList}>
+                    <Link to="/">
+                        <img src={Blossom} alt="Blossom" className={s.icon} />
+                    </Link>
                     <li className={s.navItem}>
                         <Link className={s.navLink} to="/">Home</Link>
                     </li>

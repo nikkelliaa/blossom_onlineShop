@@ -1,7 +1,11 @@
 /* Общие стили для навигации */
 .navBar {
-    background-color: #4f7942;
-    padding: 10px 20px;
+    background-color: #243C2F;
+    padding: 29px 41px;
+}
+
+.icon {
+    padding: 0 300px 31px 53px;
 }
 
 .navList {
@@ -17,15 +21,16 @@
 }
 
 .navLink {
-    color: white;
+    color: #EFEBA7;
     text-decoration: none;
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 10px 15px ;
+    /*margin: 29px 41px 45px;*/
+    font-size: 15px;
     transition: background-color 0.3s;
 }
 
 .navLink:hover {
-    background-color: #2c5c23;
+    background-color: #465945;
     border-radius: 5px;
 }
 
