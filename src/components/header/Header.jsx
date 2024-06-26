@@ -1,7 +1,7 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom'
 import s from './Header.module.css'
-import Blossom from "../../assets/Blossom.png"
+import Blossom from "../../assets/Blossom.svg"
 
 
 
@@ -14,9 +14,6 @@ const Header = () => {
                         <img src={Blossom} alt="Blossom" className={s.icon} />
                     </Link>
                     <li className={s.navItem}>
-                        <Link className={s.navLink} to="/">Home</Link>
-                    </li>
-                    <li className={s.navItem}>
                         <Link className={s.navLink} to="/aboutUs">О нас</Link>
                     </li>
                     <li className={s.navItem}>
@@ -27,9 +24,6 @@ const Header = () => {
                     </li>
                     <li className={s.navItem}>
                         <Link className={s.navLink} to="/inStock">В наличии</Link>
-                    </li>
-                    <li className={s.navItem}>
-                        <Link className={s.navLink} to="/product">Товары</Link>
                     </li>
                     <li className={s.navItem}>
                         <Link className={s.navLink} to="/productList">Продукты</Link>
